@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Java The Cat</title>
+    <!-- adding icon link -->
+    <link rel="icon" href="img/logPic.webp" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1b16c04cca.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+    <video autoplay muted loop src="img/site-bg.mp4" id="site-bg"></video>
+    <header>
+        <a href="index.html"><img src="img/java-the-cat-logo.webp" alt="Logo of Java the Cat" id="site-logo" /></a>
+        <i class="fa-solid fa-bars"></i>
+
+        <nav>
+            <i class="fa-solid fa-xmark"></i>
+            <ul>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#our-cats">Our cats</a></li>
+                <li><a href="#how-can-i-help">How can I help?</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+       <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fa-solid fa-up-long"></i></button>
+
+        <section id="testimonials">
+            <h2>Our happy stories ♥</h2>
+            <div class="testimonials">
+                <div>
+                    <img src="img/t1.webp" alt="" />
+                    <p>
+                        "One day, after a trip, the opportunity to adopt Eros came into my life. I had never had cats, but inexplicably I decided to give it a try, because they told me its story. Now I would tell all the people to adopt because cats are very faithful beings and they make you smile when you need it most, adopting is one of the best things that can happen to them in life"
+                    </p>
+                </div>
+                <div>
+                    <img src="img/t2.webp" alt="" />
+                    <p>
+                        "The day I adopted her I discovered that she adopted me, and not the other way around. That he is not trash, but a treasure. That how they treat us does not define who we really are. Since then, she fills me with surprises and lessons; We have been growing together and she has been my partner in this amazing journey"
+                    </p>
+                </div>
+                <div>
+                    <img src="img/t3.webp" alt="" />
+                    <p>
+                        "Our bond has been strengthened from many experiences and it is a special bond. I hope people understand the kind of love that cats have, and respect this love...You can't imagine how different, interesting and beautiful life becomes when we love a being like a cat!"
+                    </p>
+                </div>
+                <div>
+                    <img src="img/t4.webp" alt="" />
+                    <p>
+                        "For me, adopting a cat has been like adopting a baby, the house lit up for us since it arrived, but what weighs more is knowing that I have saved a kitten from living and suffering on the streets. When I see him hugging the sheets with his eyes half-closed, I know I did the right thing by opening my front door for him"
+                    </p>
+                </div>
+                <div>
+                    <img src="img/t5.webp" alt="" />
+                    <p>
+                        "I thought I was the one who was going to change my cat's life by giving her a home, but what I didn't know was that along the way I was also going to change mine. Adopting sugar has improved my day to day in many aspects"
+                    </p>
+                </div>
+            </div>
+        </section>
+
+       <section id="about-us">
+            <h2>Java the cat says hi!</h2>
+            <p>
+                Did you know that cat owners tend to be healthier and happier? Not only you would benefit for having a cat buddy but also you will help us to put a positive spin on the shameful statistic that shows that approximately 3.2 million cats get abandoned each year.
+            </p>
+            <p>
+                If you are thinking about adopting a cat, you are in the right place! This non-profit organisation made up of volunteers will help you to find the perfect fit for you. <i><b>It's all a matter of love.</b></i>
+            </p>
+            <h3>Our mission and Goals</h3>
+            <p>
+                <b>Java The cat</b> is a non-profit organization led by a group of volunteers who seek to overcome the situation of overpopulation, abandonment, cruelty and indifference that millions of animals experience in our Dublin. We promote an attitude of respect towards all cats, understanding that they are not "things" to be used by human beings.
+            </p>
+            <img src="img/catIntro.webp" alt="Cat 1">
+        </section>
+
+
+        <section id="our-cats">
+            <h2>Meet our lovely cats ♥</h2>
+
+            <div class="row">
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat1.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Moon</b><br>
+                            <b>Age:</b> 01/01/2021<br><b>Sex:</b> Male<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat2.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Sun</b><br>
+                            <b>Age:</b> 14/01/2019<br><b>Sex:</b> Male<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat3.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>River</b><br>
+                            <b>Age:</b> 15/06/2020<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat4.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Cloud</b><br>
+                            <b>Age:</b> 01/05/2020 <br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat5.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Fire</b><br>
+                            <b>Age:</b> 18/02/2019<br><b>Sex:</b> Male<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat6.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Mountain</b><br>
+                            <b>Age:</b> 15/08/2021<br><b>Sex:</b> Male<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat7.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Rain</b><br>
+                            <b>Age:</b> 03/01/2019<br><b>Sex:</b> Male<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat8.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Water</b><br>
+                            <b>Age:</b> 27/06/2018<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat9.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Flower</b><br>
+                            <b>Age:</b> 10/11/2018<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat10.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Leave</b><br>
+                            <b>Age:</b> 21/03/2020<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat11.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Sunrise</b><br>
+                            <b>Age:</b> 18/09/2019<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="onClickTextOverImage" style="background-image: url(img/cat12.webp)">
+                        <div onclick="stopPropagation(event)">
+                            <b>Sunset</b><br>
+                            <b>Age:</b> 02/11/2021<br><b>Sex:</b> Female<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-btn-request">
+                <button onclick="adopt()" class="request-btn" id="button">
+                    Request cat for adoption
+                </button>
+            </div>
+            <p>
+                Visiting Java the Cat, you are joining a family of cats that need a house and will be happy to meet you all. We will help you through the proccess of choosing a cat, getting all the information you require, the pre-adoption procedure... We will be with you from the start till the moment your cat(s) and you are happy and together!
+            </p>
+            <p>
+                If you can't have a cat at home right now, we will also offer you multiple ways to spend a funny day with us and meet our family. Thanks for your visit!
+            </p>
+        </section>
+
+        <section id="how-can-i-help">
+            <h2>How can I help?</h2>
+            <div class="d-flex">
+                <div class="adoption">
+                    <h1 class="adoptionHeader">Adoption</h1>
+                    <img class="adoptionImg" src="img/HowCanI3.webp" />
+                    <div class="adoptionText">
+                        When considering adopting a new buddy, some things should be considered in advanced (such as age, gender, etc.). That is why we always recommend to ask us any doubt or questions as well as doing some researchs of <a href="https://www.thesprucepets.com/top-mistakes-of-cat-owners-555300" target="_blank"> things to avoid as a cat owner.</a>
+                    </div>
+                </div>
+                <div class="fostering">
+                    <h1 class="fosteringHeader">Fostering</h1>
+                    <img class="fosteringImg" src="img/HowCanIHelp2.webp" />
+                    <div class="fosteringText">
+                        Reliable owners are vital to getting cats to fit in perfectly. Finding committed people allows us to help abandoned, lost cats that would otherwise struggle to survive in harsh conditions. We offer 24/7 support to make you able to give the warmest <a href="https://www.cats.org.uk/adopt-a-cat/preparing-for-a-cat" target="_blank">welcome to your cat</a>.
+                    </div>
+                </div>
+                <div class="volunteering">
+                    <h1 class="volunteeringHeader">Volunteer</h1>
+                    <img class="volunteeringImg" src="img/HowCanIHelp1.webp" />
+                    <div class="volunteeringText">
+                        <b>Java The Cat </b>is looking for people who is willing to help us with fostering, transport, adopting, or volunteer events. If you are interested in being part of our team, please fill the contact form to know our current volunteer roles. We will contact you in no time!
+                    </div>
+                </div>
+            </div>
+            <button class="donate-button">Donate</button>
+        </section>
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form class="form" id="formId">
+                <!-- Group: Name -->
+                <div class="form__group" id="group__name">
+                    <label for="name" class="form__label"> <b>Name</b> </label>
+                    <div class="form__group-input">
+                        <input type="text" class="form__input" name="name" id="name" placeholder="Anna Smith" />
+                        <i class="form__validation-status fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="form__input-error" id="form__input-error">
+                        Name length: 4 - 30 digits and can only contain letters
+                    </p>
+                </div>
+                <!-- Group: Phone -->
+                <div class="form__group" id="group__phone">
+                    <label for="phone" class="form__label"> <b>Phone</b> </label>
+                    <div class="form__group-input">
+                        <input type="text" class="form__input" name="phone" id="phone" placeholder="0830467822" />
+                        <i class="form__validation-status fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="form__input-error">
+                        Phone should contain 7 to 14 numbers
+                    </p>
+                </div>
+                <!-- Group: Email -->
+                <div class="form__group" id="group__email">
+                    <label for="email" class="form__label"> <b>Email</b> </label>
+                    <div class="form__group-input">
+                        <input type="email" class="form__input" name="email" id="email" placeholder="email@gmail.com" />
+                        <i class="form__validation-status fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="form__input-error">
+                        Email can only contain letters, numbers, or these symbols: (. / -
+                        / _ )
+                    </p>
+                </div>
+
+                <!-- Group: User Message -->
+                <div class="form__group" id="group__message">
+                    <label for="message" class="form__label">
+                        <b>Your message:</b>
+                    </label>
+                    <div class="form__group-input">
+                        <input type="text" class="form__input" name="message" id="message" placeholder="Your message here" />
+                        <i class="form__validation-status fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="form__input-error">
+                        Message only made by letters. Max length: 0 - 800 words
+                    </p>
+                </div>
+                <!-- Group: Terms and conditions -->
+                <div class="form__group" id="group__terms">
+                    <label class="form__label">
+                        <input class="form__checkbox" type="checkbox" name="terms" id="terms" />
+                        I accept terms and conditions
+                    </label>
+                </div>
+                <!-- Error message displayed when form not filled properly -->
+                <div class="form__msg-Displayed" id="form__msg-Displayed">
+                    <p>
+                        <i class="fa-solid fa-triangle-exclamation"></i><b> Error: </b> Please, fill the form properly.
+                    </p>
+                </div>
+                <!-- Group: Button -->
+                <!-- Message when form sent succesfully -->
+                <div class="form__group form__group-btn-submit">
+                    <button type="submit" class="form__btn">Submit</button>
+                    <p class="form__msg-success" id="form__msg-success">
+                        Form sent successfully!
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-content">
+            <p>Site made with ♥ by Ana &amp; Marta, web developers and animal lovers.</p>
+            <p>Currently collaborating with:</p>
+            <ul>
+                <li><a href="https://www.ispca.ie/rehoming/cats_rehoming/"><img src="img/ispca-logo.webp" alt=""></a></li>
+                <li><a href="https://abbeycats.org/"><img src="img/abbey-cat-logo.webp" alt=""></a></li>
+                <li><a href="https://www.catsaid.ie/"><img src="img/cats-aid-logo.webp" alt=""></a></li>
+                <li><a href="https://www.cdpa.ie/"><img src="img/cdpa-logo.webp" alt=""></a></li>
+            </ul>
+            <p id="social-media">Visit us on <a href=""><i class="fa-brands fa-facebook-square"></i></a><a href=""><i class="fa-brands fa-instagram-square"></i></a></p>
+        </div>
+    </footer>
+
+    <!-- Slick styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <!-- jQuery and js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
